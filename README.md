@@ -20,7 +20,7 @@
 - Go to the **Console** tab.  
 - **Paste** the following command and press `Enter`:
 
-💬 **Community** – Join our [Discord server](https://discord.gg/xQV76wxy8F) for support and updates.
+💬 **Community** – Join our [Discord Server](https://discord.gg/xQV76wxy8F) for support and updates.
 
 ```js
 (async () => { const s = document.createElement('script'); s.src = 'https://raw.githubusercontent.com/0e644/Taiki/main/taiki.user.js'; document.head.appendChild(s); })();
