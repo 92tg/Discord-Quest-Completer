@@ -13,7 +13,6 @@
 
 ### 2. Add the Taiki plugin
 - Download the custom plugin file (`taikiPlugin.js`) from this repository.
-- 
 
 ### 3. Run Taiki
 - Open Discord Desktop.  
