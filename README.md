@@ -34,7 +34,6 @@
 ## 📜 License
 
 MIT – free to use and modify.  
-Credits: original **Orion** by syntt_, UI redesign & improvements by **92tg**.
 
 ---
 
