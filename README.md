@@ -1,4 +1,4 @@
-# ⚡ Taiki — Discord Quest Automator
+# ⚡ Taiki — Discord Quest Completer
 
 ---
 
