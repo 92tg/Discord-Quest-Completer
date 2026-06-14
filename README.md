@@ -1,26 +1,48 @@
-# ⚡ Taiki — Discord Quest Automator (Vencord Plugin + Console)
-
-
-> **Auto‑complete all Discord quests** (videos, games, streams, activities, achievements) with a sleek glass‑morphic UI.  
-> *Requires Vencord + a custom plugin, then one console command.*
+# ⚡ Taiki — Discord Quest Automator
 
 ---
 
-## 📦 Installation
+## 📥 Installation (2 simple steps)
 
-### 1. Install Vencord
-- Download and install [Vencord](https://vencord.dev/) for Discord Desktop.
+### 1. Open Discord
+- Use **Discord Desktop** (Windows/macOS/Linux)
 
-### 2. Add the Taiki plugin
-- Download the custom plugin file (`taiki.user.js`) from this repository.
+### 2. Run Taiki
+- Press **`Ctrl + Shift + I`** (or `Cmd + Option + I` on Mac) to open Developer Tools.
+- Go to the **Console** tab.
+- **Copy the entire script** from [`taiki.user.js`](taiki.user.js) (click "Raw" to see the full code).
+- **Paste it** into the console and press `Enter`.
 
-### 3. Run Taiki
-- Open Discord Desktop.  
-- Press **`Ctrl + Shift + I`** to open DevTools.  
-- Go to the **Console** tab.  
-- **Paste** the following command and press `Enter`:
+> 🎉 The Taiki panel will appear in the top‑right corner of Discord.  
+> *(You'll need to repeat this every time you restart Discord*
 
-💬 **Community** – Join our [Discord Server](https://discord.gg/xQV76wxy8F) for support and updates.
 
-```js
-(async () => { const s = document.createElement('script'); s.src = 'https://raw.githubusercontent.com/0e644/Taiki/main/taiki.user.js'; document.head.appendChild(s); })();
+---
+
+## ✨ Features
+
+- 🎮 **All quest types**: `WATCH_VIDEO`, `GAME`, `STREAM`, `ACTIVITY`, `ACHIEVEMENT`
+- 🧠 **Smart rate‑limit handling** – auto‑retry with backoff
+- 🎨 **Modern UI** – blur effects, gradients, draggable panel
+- 🔔 **Sound & desktop notifications** (optional)
+- 🎁 **Auto‑claim rewards** (or manual claim button)
+- 🔓 **Achievement bypass** (works via local relay or Vencord plugin – see wiki)
+
+
+---
+
+## 📜 License
+
+MIT – free to use and modify.  
+Credits: original **Orion** by syntt_, UI redesign & improvements by **92tg**.
+
+---
+
+## 💬 Community
+
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2)](https://discord.gg/xQV76wxy8F)  
+Join our server for support, updates, and quest discussions.
+
+---
+
+*Made with 💙 by 92tg (14 y/o dev)*
